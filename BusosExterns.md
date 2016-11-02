@@ -15,10 +15,10 @@
 * PCIe 4.0 és la última versió i encara està en procès de fabricació, cada carril de punt a punt transporta 1969MB/s (16 carrils= 31,51GB/s o 252,08Gb/s) té una velocitat de transferència de 16GT/s
 
 ## 2. *M.2*
-### L'M.2 és un port que serveix per ampliació amb targetes d'expansió interna d'ordinadors i els seus connectors asociats. 
+L'M.2 és un port que serveix per ampliació amb targetes d'expansió interna d'ordinadors i els seus connectors asociats. 
 
 ## 3. *SLI* 
-### L'SLI és un sistema que permet connectar dues targetes gràfiques i duplicar el rendiment de l'ordinador. 
+L'SLI és un sistema que permet connectar dues targetes gràfiques i duplicar el rendiment de l'ordinador. 
 
 ## 4. *SATA*
-### El SATA és un bus extern de l'ordinador que serveix per connectar un disc dur amb la placa base. 
+El SATA és un bus extern de l'ordinador que serveix per connectar un disc dur amb la placa base. 
