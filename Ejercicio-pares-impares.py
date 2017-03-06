@@ -1,4 +1,4 @@
-Ejercicio pares/impares: 
+#Ejercicio pares/impares: 
 
 #coding utf-8-
 numero =input("Introducir un numero: ")
