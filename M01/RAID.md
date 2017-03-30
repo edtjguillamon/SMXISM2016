@@ -12,48 +12,48 @@
 
 ## 2. **Comandes i descripció de les mateixes per tal de crear un sistema RAID1**
 
-* Mmdadm --create <nom_dispositiu> --level=1 --raid-devices=2 <DD1> <DD2> 
+*Mmdadm --create <nom_dispositiu> --level=1 --raid-devices=2 <DD1> <DD2>*
 **Definim el nom del dispositiu RAID, el nivell en el qual l'establim, el numero
 discs durs que afegim i després el nom de cada disc dur.**
 
-* mkfs.ext4 /dev/md1 *
-**Creem el sistema de fitxers ext4 i l'afegim al dispositiu RAID. 
+*mkfs.ext4 /dev/md1*
+**Creem el sistema de fitxers ext4 i l'afegim al dispositiu RAID.** 
 
-*mount /dev/md1 /mnt 
+*mount /dev/md1 /mnt* 
 **Montem el dispositiu RAID a la carpeta /mnt** 
 
 ## 3. **Comandes i descripció de les mateixes per tal de crear un sistema RAID5**
 
-* Mmdadm --create <nom_dispositiu> --level=5 --raid-devices=3 <DD1> <DD2> <DD3> 
+*Mmdadm --create <nom_dispositiu> --level=5 --raid-devices=3 <DD1> <DD2> <DD3>*
 **Definim el nom del dispositiu RAID, el nivell en el qual l'establim, el numero
 discs durs que afegim i després el nom de cada disc dur.**
 
-* mkfs.ext4 /dev/md5 *
-**Creem el sistema de fitxers ext4 i l'afegim al dispositiu RAID.
+*mkfs.ext4 /dev/md5*
+**Creem el sistema de fitxers ext4 i l'afegim al dispositiu RAID.**
 
-*mount /dev/md5 /mnt 
+*mount /dev/md5 /mnt*
 **Montem el dispositiu RAID a la carpeta /mnt** 
 
 ## 4. **Comandes i descripció de les mateixes per tal de crear un sistema RAID6**
 
-* Mmdadm --create <nom_dispositiu> --level=6 --raid-devices=4 <DD1> <DD2> <DD3> <DD4> 
+*Mmdadm --create <nom_dispositiu> --level=6 --raid-devices=4 <DD1> <DD2> <DD3> <DD4>*
 **Definim el nom del dispositiu RAID, el nivell en el qual l'establim, el numero
 discs durs que afegim i després el nom de cada disc dur.**
 
-* mkfs.ext4 /dev/md6 *
-**Creem el sistema de fitxers ext4 i l'afegim al dispositiu RAID.
+*mkfs.ext4 /dev/md6*
+**Creem el sistema de fitxers ext4 i l'afegim al dispositiu RAID.**
 
-*mount /dev/md6 /mnt 
+*mount /dev/md6 /mnt*
 **Montem el dispositiu RAID a la carpeta /mnt** 
 
 ## 5. **Comandes i descripció de les mateixes per tal de crear un sistema RAID10**
 
-* Mmdadm --create <nom_dispositiu> --level=10 --raid-devices=4 <DD1> <DD2> <DD3> <DD4>
+*Mmdadm --create <nom_dispositiu> --level=10 --raid-devices=4 <DD1> <DD2> <DD3> <DD4>*
 **Definim el nom del dispositiu RAID, el nivell en el qual l'establim, el numero
 discs durs que afegim i després el nom de cada disc dur.**
 
-* mkfs.ext4 /dev/md10 *
-**Creem el sistema de fitxers ext4 i l'afegim al dispositiu RAID.
+*mkfs.ext4 /dev/md10*
+**Creem el sistema de fitxers ext4 i l'afegim al dispositiu RAID.**
 
-*mount /dev/md10 /mnt 
+*mount /dev/md10 /mnt*
 **Montem el dispositiu RAID a la carpeta /mnt** 
